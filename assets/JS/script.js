@@ -1,7 +1,7 @@
 let log = new Log(document.querySelector('.log'));
 
 let char = new Ninja(`${'Ninja'}`);
-let monster = new Orche();
+let monster = new KingZombie();
 
 const stage = new Stage (
     char,
