@@ -86,11 +86,13 @@
   color: #fff;
   margin-top: 100px;
   border: 1px dotted #999;
-  height: 200px;
-  max-width: 800px;
+  height: 300px;
+  max-width: 1000px;
   overflow-y: scroll;
   border: 10px solid #000;
   border-radius: 10px;
+  font-size: 30px;
+  font-family: sans-serif;
 }
 
 .log::-webkit-scrollbar-track {
@@ -116,6 +118,6 @@
         text-shadow: 0 0 10px #ffffff;
     }
     100% {
-        text-shadow: 0 0 20px #ffffff;
+        text-shadow: 0 0 15px #ffffff;
     }
 }
