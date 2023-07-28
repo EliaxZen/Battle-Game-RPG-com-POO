@@ -1,4 +1,6 @@
-let char = new Ninja(`${"Ninja"} ${"Eli-samma"}`);
+let log = new Log(document.querySelector('.log'));
+
+let char = new Ninja();
 let monster = new Orche();
 
 const stage = new Stage (
@@ -6,6 +8,7 @@ const stage = new Stage (
     monster,
     document.querySelector('#char'),
     document.querySelector('#monster'),
+    log
 );
 
 stage.start();
