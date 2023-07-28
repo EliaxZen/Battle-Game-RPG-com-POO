@@ -36,9 +36,9 @@ class Sorcerer extends Character {
   }
 }
 
-class Orche extends Character {
+class Zombie extends Character {
   constructor() {
-    super('Orche');
+    super('Zombie');
     this.life = 100;
     this.attack = 4;
     this.defense = 3;
